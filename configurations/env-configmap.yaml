@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: arn:aws:s3:::project3-v2
+  AWS_PROFILE: default
+  AWS_REGION: us-east-1
+  JWT_SECRET: testing
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: 'export POSTGRES_HOST=cdrproject3-v2.clv0igsd8d8c.us-east-1.rds.amazonaws.com'
+  URL: http://localhost:8100
+metadata:
+  name: env-config
